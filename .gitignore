@@ -1,0 +1,16 @@
+.classpath
+*.iml
+*.ipr
+*.iws
+nb*
+.project
+.settings/
+.gradle/
+target/
+out/
+build/
+bin/
+tags
+.idea
+*.aof
+*.rdb
