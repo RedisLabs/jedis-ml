@@ -5,7 +5,19 @@ import redis.clients.util.SafeEncoder;
 
 public class MLClient {
     public enum ModuleCommand implements ProtocolCommand {
-        FOREST_ADD("FOREST.ADD"), FOREST_RUN("FOREST.RUN"), FOREST_TEST("FOREST.TEST");
+        FOREST_ADD("ML.FOREST.ADD"),
+        FOREST_RUN("ML.FOREST.RUN"),
+        FOREST_TEST("ML.FOREST.TEST"),
+        LINREG_SET("ML.LINREG.SET"),
+        LINREG_PREDICT("ML.LINREG.PREDICT"),
+        LOGREG_SET("ML.LOGREG.SET"),
+        LOGREG_PREDICT("ML.LOGREG.PREDICT"),
+        MATRIX_SET("ML.MATRIX.SET"),
+        MATRIX_MULTIPLY("ML.MATRIX.MULTIPLY"),
+        MATRIX_ADD("ML.MATRIX.ADD"),
+        MATRIX_SCALE("ML.MATRIX.SCALE"),
+        MATRIX_PRINT("ML.MATRIX.PRINT"),
+        MATRIX_TEST("ML.MATRIX.TEST");
 
         private final byte[] raw;
 
