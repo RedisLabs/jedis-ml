@@ -38,18 +38,30 @@ jedis.getClient().getStatusCodeReply
 
 
 
-### Supported Commands:
+### Command list:
 
  FOREST_ADD 
+
  FOREST_RUN 
+
  FOREST_TEST 
- LINREG_SET 
+
+ LINREG_SET
+
  LINREG_PREDICT 
+
  LOGREG_SET 
+
  LOGREG_PREDICT
+
  MATRIX_SET 
+
  MATRIX_MULTIPLY 
+
  MATRIX_ADD 
+
  MATRIX_SCALE
+
  MATRIX_PRINT 
+
  MATRIX_TEST 
