@@ -1,4 +1,6 @@
 .classpath
+*.jar
+*.class
 *.iml
 *.ipr
 *.iws
