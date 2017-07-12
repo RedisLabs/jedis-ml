@@ -17,7 +17,9 @@ public class MLClient {
         MATRIX_ADD("ML.MATRIX.ADD"),
         MATRIX_SCALE("ML.MATRIX.SCALE"),
         MATRIX_PRINT("ML.MATRIX.PRINT"),
-        MATRIX_TEST("ML.MATRIX.TEST");
+        MATRIX_TEST("ML.MATRIX.TEST"),
+        KMEANS_SET("ML.KMEANS.SET"),
+        KMEANS_PREDICT("ML.KMEANS.PREDICT");
 
         private final byte[] raw;
 
