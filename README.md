@@ -1,3 +1,7 @@
+---
+#### Notice RedisML is planned to be replaced by [RedisAI](http://redisai.io), adding support for deep learning.
+***
+
 # jedis-ml
 
 ### Add  [Redis-ML](https://github.com/RedisLabsModules/redis-ml "Redis-ML") commands to  [Jedis](https://github.com/xetorthio/jedis "Jedis")  
